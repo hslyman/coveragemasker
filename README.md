@@ -1,6 +1,6 @@
 coveragemasker
 ==============
-This repository contains coverage_masker.pl, a Perl script for masking functionally repetetive sequence based on its coverage level. This script requires FAlite.pm, a Perl module that can be found in the Korf Lab Perl_utils repository: https://github.com/KorfLab/Perl_utils/blob/master/FAlite.pm.
+This repository contains coverage_masker.pl, a Perl script for masking functionally repetetive sequence based on its coverage level. This script requires <a href="https://github.com/KorfLab/Perl_utils/blob/master/FAlite.pm">FAlite.pm</a> and <a href="https://github.com/BenLangmead/bowtie2">bowtie2</a>.
 Using coverage_masker.pl:
 -------------------------
 usage: ./coverage_masker.pl \<contigs fasta\> \<reads fastq\> -a \<path to bowtie2\> -d \<output directory\> -x \<coverage threshold\>
