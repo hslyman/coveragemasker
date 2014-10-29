@@ -14,4 +14,4 @@ Coverage masking will not occur unless -a specifies the location of an executabl
 ```bash
 /share/apps/bowtie2/bowtie2
 ```
-followed by your arguments, the location of bowtie specified by -a should be /share/apps/bowtie2/bowtie2. The script is ignorant with regards to your path; even if bowtie2 is a part of your path, its location must still be specified (this may be changed in the future).
+followed by your arguments, write "-a should be /share/apps/bowtie2/bowtie2". The script is ignorant with regards to your path; even if bowtie2 is a part of your path, its location must still be specified (this may be changed in the future).
