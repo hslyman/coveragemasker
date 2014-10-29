@@ -4,7 +4,7 @@ This repository contains coverage_masker.pl, a Perl script for masking functiona
 Using coverage_masker.pl:
 -------------------------
 ```bash
-usage: ./coverage_masker.pl \<contigs FASTA\> \<reads FASTQ\> -a \<bowtie2\> -d \<output directory\> -x \<coverage threshold\>
+usage: ./coverage_masker.pl <contigs FASTA> <reads FASTQ> -a <bowtie2> -d <output directory> -x <coverage threshold>
 ```
 The script will generate (1) a SAM file, (2) a coverage map for each entry in the contigs FASTA file and (3) a coverage-masked output FASTA, all contained within the output directory.
 
