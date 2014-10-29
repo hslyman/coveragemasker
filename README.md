@@ -16,4 +16,4 @@ Subsequent to the initial run, coverage_masker.pl can be rerun to mask at differ
 ```bash
 /share/apps/bowtie2/bowtie2
 ```
-followed by your arguments, write "-a should be /share/apps/bowtie2/bowtie2". <B>Even if bowtie2 is a part of your path, its location must still be specified</B> (this may be changed in the future).
+followed by your arguments, write "-a /share/apps/bowtie2/bowtie2". <B>Even if bowtie2 is a part of your path, its location must still be specified</B> (this may be changed in the future).
